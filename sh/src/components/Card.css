@@ -1,0 +1,29 @@
+.Mainn
+{
+    font-family: cursive;
+    background-color: Blue;
+}
+
+h2
+{
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(32, 32, 94));
+    font-family: serif;
+    
+}
+
+.card-body{
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    background: rgb(53, 53, 44);
+    color: white;
+}
+
+.expandable-image {
+    width: 200px; /* Set initial width */
+    transition: transform 0.3s ease; /* Add transition effect */
+  }
+  
+  .expandable-image:hover {
+    transform: scale(1.2); /* Set scale to 1.2 when mouse over */
+  }
