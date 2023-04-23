@@ -1,0 +1,109 @@
+
+.sd{
+  
+    background-color: rgb(47, 45, 48);
+    background-image: linear-gradient(rgb(14, 79, 199),grey);
+    padding-right:10%;
+    padding-left:10% ;
+    align-items: center;
+   border-color: black;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   overflow: hidden;
+   box-shadow: 5px 2px 10px rgb(0, 0, 0);
+   
+  
+
+}
+.dblock
+{
+    
+    border-color: rgb(255, 255, 255);
+ 
+    overflow: hidden;
+    box-shadow: 5px 2px 10px rgb(0, 0, 0);
+    padding-bottom: 10px;
+    
+
+}
+
+.tit{
+    background-color: bisque;
+    align-content: center;
+    cursor: pointer;
+    
+}
+
+
+.pics
+{
+    padding-top: 30px;
+    padding-bottom: 70px;
+   display: flex;
+   justify-content: center;
+   background-image: linear-gradient(rgb(143, 143, 172),black);
+  
+   align-items: center;
+   overflow: hidden;
+   box-shadow: 5px 5px 20px black;
+   margin: 50px;
+  
+    
+    
+}
+
+.a1
+{
+   
+    overflow: hidden;
+   box-shadow: 5px 2px 10px rgb(0, 0, 0);
+ 
+}
+
+.a2
+{
+      overflow: hidden;
+   box-shadow: 5px 2px 10px rgb(0, 0, 0);
+ 
+}
+
+.a3
+{
+      overflow: hidden;
+   box-shadow: 5px 2px 10px rgb(12, 11, 11);
+  
+}
+
+.lst
+{
+    font-family: monospace;
+}
+
+.lsst
+{
+   
+    
+   
+    background-color: rgb(46, 44, 44);
+    padding-top: 20px;
+    padding-bottom:20px;
+    
+    display: flex;
+   
+    
+}
+
+.pix
+{
+   
+   
+    box-shadow: 5px 5px 20px rgb(75, 75, 75);
+    margin: 2px;
+     
+}
+
+.pix2
+{
+    padding-left: 20px;
+}
+

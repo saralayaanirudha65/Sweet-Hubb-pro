@@ -4,13 +4,18 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import { MdLocationOn } from 'react-icons/md'
 import { BsShop } from 'react-icons/bs'
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import {BsFillTelephoneFill} from "react-icons/bs"
 
+import Krish from "../Details/krish.js";
 
 
-function Cards() {
+
+
+
+function Shops() {
+    
     return (
         <>
             <h2 className="text-center text-white">Sweet Shops </h2>
@@ -38,7 +43,10 @@ function Cards() {
                         </Card.Text>
 
                         <Card.Text>
-                        <BsFillTelephoneFill/><b>PHONE NO </b> 9448691137 
+                        <BsFillTelephoneFill/><b>PHONE NO </b> 9448691137 <br></br><br></br>
+                        <Link to="/krish">
+                        <Button>Dive in</Button>
+                        </Link>
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -322,4 +330,4 @@ function Cards() {
         </>
     );
 }
-export default Cards  
+export default Shops  
