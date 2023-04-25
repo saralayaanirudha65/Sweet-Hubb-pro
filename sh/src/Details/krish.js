@@ -61,7 +61,7 @@ const krish = () => {
           />
           
 
-<img className='a2'
+<img className='a2' 
           src="https://github.com/saralayaanirudha65/saralayaanirudha65/blob/main/samm.jpg?raw=true"
           height="200" width="200"
           />
@@ -88,22 +88,21 @@ const krish = () => {
     
 
 
-<div className="lsst">
+<div className="lsst" align="center">
+  
     <Card sx={{ maxWidth: 250 }}>
       <CardMedia className="pix"
         sx={{ height: 200 }}
         image="https://github.com/saralayaanirudha65/ne/blob/master/Mand.jpg?raw=true"
-        title="Mandige" height="500" width="500"
+        title="Mandige" 
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Mandige<br/>
-          <b>₹140</b>
+          MANDIGE 1Packet ₹120
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-          
-        </Typography>
+        
       </CardContent>
+      
       
       
     </Card>
@@ -117,28 +116,74 @@ const krish = () => {
 
 
     
-    <div className='pix2'>
-    <Card sx={{ maxWidth: 345 }}>
+    <div className="pix">
+    <Card sx={{ maxWidth: 250 }}>
       <CardMedia
-        sx={{ height: 140 }}
-        image="/static/images/cards/contemplative-reptile.jpg"
+        sx={{ height: 200 }}
+        image="https://github.com/saralayaanirudha65/ne/blob/master/chutneypudi.jpg?raw=true"
         title="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          CHUTNEY PUDI
+          1Packet ₹250
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions>
+      
     </Card></div>
+
+    <div className="pix">
+    <Card sx={{ maxWidth: 250 }}>
+      <CardMedia
+        sx={{ height: 200 }}
+        image="https://github.com/saralayaanirudha65/saralayaanirudha65/blob/main/samm.jpg?raw=true"
+        title="green iguana"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          SAMBAR PUDI
+          1Packet ₹250
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          
+        </Typography>
+      </CardContent>
+      
+    </Card></div>
+
+    <div className="pix">
+    <Card sx={{ maxWidth: 250 }}>
+      <CardMedia
+        sx={{ height: 200 }}
+        image="https://github.com/saralayaanirudha65/saralayaanirudha65/blob/main/rasa.jpg?raw=true"
+        
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          RASAM PUDI
+          1Packet ₹250
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          
+        </Typography>
+      </CardContent>
+      
+    </Card></div>
+
+
+
+
+
+
+
+
+    
+
 </div>
+
 
 
 
